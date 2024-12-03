@@ -1,0 +1,15 @@
+list1 = [12, -7, 5, 64, -14]
+list2 = [12, 14, -95, 3]
+output_list1 = []
+output_list2 = []
+
+for i in list1:
+    if i >= 0:
+        output_list1.append(i)
+        
+for i in list2:
+    if i >= 0:
+        output_list2.append(i)
+        
+print("Output List 1:", output_list1)
+print("Output List 2:", output_list2)
